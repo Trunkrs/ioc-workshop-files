@@ -1,0 +1,26 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2019",
+      "ES2020.promise",
+      "ES2020.bigint",
+      "ES2020.string",
+      "es2015.proxy"
+    ]
+  },
+  "include": [
+    "index.d.ts",
+    "jest.setup.ts",
+    "jest.config.js",
+    "functions",
+    "services",
+    "providers",
+    "utils",
+    "repositories",
+    "models",
+    "config",
+    "controllers"
+  ],
+  "exclude": ["node_modules", "./**/*.spec.ts"]
+}
